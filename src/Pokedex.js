@@ -1,11 +1,18 @@
 import React, {Component} from 'react'
 import Pokecard from "./Pokecard";
+import './Pokedex.css';
 class Pokedex  extends Component{
     render() {
         return(
-            <div>
-            <h1>I'm pokedex</h1>
-            <Pokecard/>
+            <div className='tc'>
+                <h1 className="Pokedex-header">I'm pokedex</h1>
+                <div>
+                    <Pokecard/>
+                    <Pokecard/>
+                    <Pokecard/>
+                    <Pokecard/>
+                </div>
+
             </div>
         )
     }

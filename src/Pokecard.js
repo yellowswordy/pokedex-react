@@ -13,8 +13,8 @@ class Pokecard  extends Component{
     ]
     render() {
         return(
-            <div className="Pokecard">
-                <h3 className="Pokecard-name">Pikachu</h3>
+            <div className="Pokecard tc bg-light-gray dib br4 pa1 ma3 shadow-3-ns bw2 grow">
+                <h3 className="Pokecard-name f4">Pikachu</h3>
                 <img  className='Pokecard-img' src={`https://assets.pokemon.com/assets/cms2/img/pokedex/detail/${'00'}1.png`} alt="pictue of pokemon"/>
                 <p>Type: electric</p>
                 <p>EXP: 112</p>
